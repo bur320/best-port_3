@@ -15,13 +15,14 @@ const About = () => {
             <p>
               I am Burhan Rabbani, a highly skilled front-end website developer
               with two years of working experience in the software industry. I
-              am proficient in HTML, CSS, JavaScript, Bootstrap , React js. I
-              create visually appealing and user-friendly websites with a keen
-              eye for detail and have a deep understanding of modern web
-              development practices. My strong problem-solving abilities and
-              dedication to staying updated with the latest technologies allow
-              me to deliver high-quality results. Feel free to reach out to me
-              if you want to discuss your project. Thank you!.
+              am proficient in HTML, CSS, JavaScript, Bootstrap, Tailwind css,
+              React js, MUI, Next js. I create visually appealing and
+              user-friendly websites with a keen eye for detail and have a deep
+              understanding of modern web development practices. My strong
+              problem-solving abilities and dedication to staying updated with
+              the latest technologies allow me to deliver high-quality results.
+              Feel free to reach out to me if you want to discuss your project.
+              Thank you!.
             </p>
             <div class="btn-con">
               <a href="#" class="main-btn">
@@ -35,7 +36,7 @@ const About = () => {
           <div class="right-about">
             <div class="about-item">
               <div class="abt-text">
-                <p class="large-text">650+</p>
+                <p class="large-text">10+</p>
                 <p class="small-text">
                   Projects <br /> Completed
                 </p>
@@ -43,7 +44,7 @@ const About = () => {
             </div>
             <div class="about-item">
               <div class="abt-text">
-                <p class="large-text">10+</p>
+                <p class="large-text">1+</p>
                 <p class="small-text">
                   Years of <br /> experience
                 </p>
@@ -51,7 +52,7 @@ const About = () => {
             </div>
             <div class="about-item">
               <div class="abt-text">
-                <p class="large-text">300+</p>
+                <p class="large-text">15+</p>
                 <p class="small-text">
                   Happy <br /> Clients
                 </p>
@@ -59,7 +60,7 @@ const About = () => {
             </div>
             <div class="about-item">
               <div class="abt-text">
-                <p class="large-text">400+</p>
+                <p class="large-text">30+</p>
                 <p class="small-text">
                   Customer <br /> reviews
                 </p>
@@ -98,7 +99,7 @@ const About = () => {
               </div>
             </div>
             <div class="progress-bar">
-              <p class="prog-title">ReactJS</p>
+              <p class="prog-title">React JS</p>
               <div class="progress-con">
                 <p class="prog-text">75%</p>
                 <div class="progress">
@@ -107,7 +108,7 @@ const About = () => {
               </div>
             </div>
             <div class="progress-bar">
-              <p class="prog-title">NodeJS</p>
+              <p class="prog-title">Next JS</p>
               <div class="progress-con">
                 <p class="prog-text">87%</p>
                 <div class="progress">
@@ -119,6 +120,24 @@ const About = () => {
               <p class="prog-title">Bootstrap</p>
               <div class="progress-con">
                 <p class="prog-text">70%</p>
+                <div class="progress">
+                  <span class="python"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Tailwind css</p>
+              <div class="progress-con">
+                <p class="prog-text">70%</p>
+                <div class="progress">
+                  <span class="python"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Node js</p>
+              <div class="progress-con">
+                <p class="prog-text">25%</p>
                 <div class="progress">
                   <span class="python"></span>
                 </div>

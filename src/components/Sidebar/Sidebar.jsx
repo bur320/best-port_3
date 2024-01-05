@@ -38,13 +38,15 @@ export default function Sidebar() {
             disablePadding
             key={item?.path}
             sx={{
+              display: "flex",
+              flexGrow: 1,
               fontWeight: "bold",
               justifyContent: "center",
               textAlign: "center",
             }}
           >
             <ListItemButton onClick={() => router.push(item?.path)}>
-              <ListItemIcon className="text-white">{item?.icon}</ListItemIcon>
+              <ListItemIcon sx={{ color: "white" }}>{item?.icon}</ListItemIcon>
               <ListItemText primary={item?.name} />
             </ListItemButton>
           </ListItem>

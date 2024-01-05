@@ -41,7 +41,7 @@ const Contact = () => {
                     <span>Education : </span>
                   </div>
                   <p>
-                    <span>USTB KpK, Pakistan</span>
+                    <span> USTB , Pakistan</span>
                   </p>
                 </div>
                 <div className="contact-item">

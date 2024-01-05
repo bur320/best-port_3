@@ -1,4 +1,5 @@
 import React from "react";
+import SendIcon from "@mui/icons-material/Send";
 
 const Contact = () => {
   return (
@@ -98,8 +99,15 @@ const Contact = () => {
                     placeholder="Message Here..."
                   ></textarea>
                 </div>
-                <div className="submit-btn">
+                <div className="submit-btn flex justify-between">
                   <a href="#" className="main-btn">
+                    <span className="btn-text">Send Message</span>
+                    <span className="btn-icon">
+                      <SendIcon />
+                      {/* <i className="fas fa-download"></i> */}
+                    </span>
+                  </a>
+                  <a href="#" className="main-btn ml-32">
                     <span className="btn-text">Download CV</span>
                     <span className="btn-icon">
                       <i className="fas fa-download"></i>

@@ -34,18 +34,11 @@ export default function Sidebar() {
       </div>
       <List className="list1">
         {routes.map((item) => (
-          <ListItem
-            disablePadding
-            key={item?.path}
-            sx={{
-              display: "flex",
-              flexGrow: 1,
-              fontWeight: "bold",
-              justifyContent: "center",
-              textAlign: "center",
-            }}
-          >
-            <ListItemButton onClick={() => router.push(item?.path)}>
+          <ListItem disablePadding key={item?.path}>
+            <ListItemButton
+              onClick={() => router.push(item?.path)}
+              sx={{ pl: 7, pt: 2 }}
+            >
               <ListItemIcon sx={{ color: "white" }}>{item?.icon}</ListItemIcon>
               <ListItemText primary={item?.name} />
             </ListItemButton>

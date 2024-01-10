@@ -9,6 +9,8 @@ import DraftsIcon from "@mui/icons-material/Drafts";
 import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
 import GroupWorkIcon from "@mui/icons-material/GroupWork";
 import ArticleIcon from "@mui/icons-material/Article";
+import Location from "@/app/(web-layout)/location/page";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 export const routes = [
   {
@@ -41,6 +43,12 @@ export const routes = [
     name: "Blog",
     component: <Blog />,
     icon: <ArticleIcon />,
+  },
+  {
+    path: "/location",
+    name: "Location",
+    component: <Location />,
+    icon: <LocationOnIcon />,
   },
   {
     path: "/contact",
